@@ -71,7 +71,6 @@ def get_cta_bus_stops_in_radius(center_lat, center_long, radius):
     Given a Shapely buffer 'circle', return the bus stops that fall within the 
     buffer
     """
-
     center = latlong_to_utm(Point(center_long, center_lat))
     circle = center.buffer(radius)
 
@@ -87,8 +86,8 @@ def get_stations_and_stops_in_radius(center_lat, center_long, radius):
     stops = get_cta_bus_stops_in_radius(center_lat, center_long, radius)
 
     # Return only the namea and location of the station
-    truncated_stations = stations.rename(columns={'station_descriptive_name': 'name', 'geolocation': 'location'})[['name', 'location']].to_dict('records')
-    truncated_stops = stops.rename(columns={'PUBLIC_NAM': 'name', 'geolocation': 'location'})[['name', 'location']].to_dict('records'))
+    truncated_stations = stations.rename(columns={'station_descriptive_name': 'name', 'stop_name': 'direction', 'geolocation': 'location'})[['name', 'location']].to_dict('records')
+    truncated_stops = stops.rename(columns={'PUBLIC_NAM': 'name', 'CROSS_ST': 'direction', 'geolocation': 'location'})[['name', 'location']].to_dict('records')
     return truncated_stations, truncated_stops
 
 def create_buffer(center_lat, center_long, radius):
