@@ -86,8 +86,10 @@ def get_stations_and_stops_in_radius(center_lat, center_long, radius):
     stations = get_l_stations_in_radius(center_lat, center_long, radius)
     stops = get_cta_bus_stops_in_radius(center_lat, center_long, radius)
 
-    stations_dict = stations.rename(columns={'location': 'geometry'}).apply(lambda row: {'name': row['name'], 'location': row['geometry']}, axis=1).tolist()
-    
+    # Return only the namea and location of the station
+    truncated_stations = stations.rename(columns={'station_descriptive_name': 'name', 'geolocation': 'location'})[['name', 'location']].to_dict('records')
+    truncated_stops = stops.rename(columns={'PUBLIC_NAM': 'name', 'geolocation': 'location'})[['name', 'location']].to_dict('records'))
+    return truncated_stations, truncated_stops
 
 def create_buffer(center_lat, center_long, radius):
     """
