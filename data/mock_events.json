@@ -1,0 +1,902 @@
+[
+    {
+        "date": "2025-12-09",
+        "event_name": "Education Leadership Conference",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 63044
+    },
+    {
+        "date": "2025-05-29",
+        "event_name": "Sports Business Summit",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 44648
+    },
+    {
+        "date": "2025-08-10",
+        "event_name": "Artificial Intelligence Conference",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 17769
+    },
+    {
+        "date": "2025-12-10",
+        "event_name": "Global Finance Meeting",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 4673
+    },
+    {
+        "date": "2025-05-12",
+        "event_name": "Health and Wellness Fair",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 43691
+    },
+    {
+        "date": "2025-07-07",
+        "event_name": "Sports Business Summit",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 32876
+    },
+    {
+        "date": "2025-08-22",
+        "event_name": "Chicago Comic Con",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 43667
+    },
+    {
+        "date": "2025-06-01",
+        "event_name": "Sports Business Summit",
+        "geolocation": [
+            41.8875,
+            -87.6217
+        ],
+        "expected_attendance": 7825
+    },
+    {
+        "date": "2025-06-15",
+        "event_name": "Chicago Comic Con",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 60416
+    },
+    {
+        "date": "2025-08-22",
+        "event_name": "Renewable Energy Forum",
+        "geolocation": [
+            41.8875,
+            -87.6217
+        ],
+        "expected_attendance": 67494
+    },
+    {
+        "date": "2025-12-07",
+        "event_name": "Education Leadership Conference",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 29371
+    },
+    {
+        "date": "2025-11-23",
+        "event_name": "Chicago Comic Con",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 24190
+    },
+    {
+        "date": "2025-12-02",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 60896
+    },
+    {
+        "date": "2025-07-02",
+        "event_name": "Design Thinking Workshop",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 61748
+    },
+    {
+        "date": "2025-10-05",
+        "event_name": "Blockchain World",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 59731
+    },
+    {
+        "date": "2025-07-29",
+        "event_name": "Virtual Reality Expo",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 32826
+    },
+    {
+        "date": "2025-10-05",
+        "event_name": "Medical Research Summit",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 63276
+    },
+    {
+        "date": "2025-05-27",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8875,
+            -87.6217
+        ],
+        "expected_attendance": 29825
+    },
+    {
+        "date": "2025-05-02",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 44947
+    },
+    {
+        "date": "2025-10-09",
+        "event_name": "Global Finance Meeting",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 30506
+    },
+    {
+        "date": "2025-05-12",
+        "event_name": "Sports Business Summit",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 52051
+    },
+    {
+        "date": "2025-10-05",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 53389
+    },
+    {
+        "date": "2025-09-15",
+        "event_name": "Sports Business Summit",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 14384
+    },
+    {
+        "date": "2025-11-17",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 66746
+    },
+    {
+        "date": "2025-09-28",
+        "event_name": "Smart Cities Symposium",
+        "geolocation": [
+            41.8841,
+            -87.6278
+        ],
+        "expected_attendance": 46394
+    },
+    {
+        "date": "2025-07-29",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 13967
+    },
+    {
+        "date": "2025-07-29",
+        "event_name": "BioTech Future Conference",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 53573
+    },
+    {
+        "date": "2025-07-14",
+        "event_name": "Virtual Reality Expo",
+        "geolocation": [
+            41.8841,
+            -87.6278
+        ],
+        "expected_attendance": 40148
+    },
+    {
+        "date": "2025-09-07",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 69814
+    },
+    {
+        "date": "2025-08-05",
+        "event_name": "Design Thinking Workshop",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 35205
+    },
+    {
+        "date": "2025-06-06",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 38576
+    },
+    {
+        "date": "2025-08-03",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 23480
+    },
+    {
+        "date": "2025-10-02",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 50516
+    },
+    {
+        "date": "2025-11-09",
+        "event_name": "Design Thinking Workshop",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 28035
+    },
+    {
+        "date": "2025-08-10",
+        "event_name": "Medical Research Summit",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 9810
+    },
+    {
+        "date": "2025-12-01",
+        "event_name": "Health and Wellness Fair",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 6063
+    },
+    {
+        "date": "2025-05-11",
+        "event_name": "Food and Beverage Expo",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 22318
+    },
+    {
+        "date": "2025-05-15",
+        "event_name": "BioTech Future Conference",
+        "geolocation": [
+            41.8841,
+            -87.6278
+        ],
+        "expected_attendance": 68524
+    },
+    {
+        "date": "2025-11-06",
+        "event_name": "Chicago Comic Con",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 51807
+    },
+    {
+        "date": "2025-05-19",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 64377
+    },
+    {
+        "date": "2025-08-12",
+        "event_name": "Renewable Energy Forum",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 61156
+    },
+    {
+        "date": "2025-10-06",
+        "event_name": "Food and Beverage Expo",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 49892
+    },
+    {
+        "date": "2025-08-26",
+        "event_name": "Food and Beverage Expo",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 13730
+    },
+    {
+        "date": "2025-05-09",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 13607
+    },
+    {
+        "date": "2025-11-11",
+        "event_name": "Blockchain World",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 68672
+    },
+    {
+        "date": "2025-07-01",
+        "event_name": "Design Thinking Workshop",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 7203
+    },
+    {
+        "date": "2025-10-04",
+        "event_name": "Artificial Intelligence Conference",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 63138
+    },
+    {
+        "date": "2025-08-30",
+        "event_name": "Food and Beverage Expo",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 11709
+    },
+    {
+        "date": "2025-07-12",
+        "event_name": "Medical Research Summit",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 27061
+    },
+    {
+        "date": "2025-08-28",
+        "event_name": "BioTech Future Conference",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 32288
+    },
+    {
+        "date": "2025-12-29",
+        "event_name": "Virtual Reality Expo",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 10261
+    },
+    {
+        "date": "2025-11-06",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 39522
+    },
+    {
+        "date": "2025-08-16",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 33490
+    },
+    {
+        "date": "2025-11-30",
+        "event_name": "Renewable Energy Forum",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 4351
+    },
+    {
+        "date": "2025-05-17",
+        "event_name": "Artificial Intelligence Conference",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 41077
+    },
+    {
+        "date": "2025-08-28",
+        "event_name": "Smart Cities Symposium",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 36040
+    },
+    {
+        "date": "2025-07-04",
+        "event_name": "Home and Garden Show",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 11090
+    },
+    {
+        "date": "2025-07-15",
+        "event_name": "Design Thinking Workshop",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 21299
+    },
+    {
+        "date": "2025-10-04",
+        "event_name": "Food and Beverage Expo",
+        "geolocation": [
+            41.8841,
+            -87.6278
+        ],
+        "expected_attendance": 30539
+    },
+    {
+        "date": "2025-07-04",
+        "event_name": "Artificial Intelligence Conference",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 27774
+    },
+    {
+        "date": "2025-10-21",
+        "event_name": "Medical Research Summit",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 22033
+    },
+    {
+        "date": "2025-10-05",
+        "event_name": "Home and Garden Show",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 57851
+    },
+    {
+        "date": "2025-09-07",
+        "event_name": "Global Finance Meeting",
+        "geolocation": [
+            41.8875,
+            -87.6217
+        ],
+        "expected_attendance": 44966
+    },
+    {
+        "date": "2025-07-10",
+        "event_name": "Home and Garden Show",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 60704
+    },
+    {
+        "date": "2025-06-11",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 59275
+    },
+    {
+        "date": "2025-07-27",
+        "event_name": "Artificial Intelligence Conference",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 47091
+    },
+    {
+        "date": "2025-11-28",
+        "event_name": "Mental Health Awareness Forum",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 35309
+    },
+    {
+        "date": "2025-05-07",
+        "event_name": "BioTech Future Conference",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 53842
+    },
+    {
+        "date": "2025-10-14",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 11482
+    },
+    {
+        "date": "2025-08-02",
+        "event_name": "Sports Business Summit",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 48023
+    },
+    {
+        "date": "2025-10-07",
+        "event_name": "Renewable Energy Forum",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 34063
+    },
+    {
+        "date": "2025-10-25",
+        "event_name": "Medical Research Summit",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 45723
+    },
+    {
+        "date": "2025-05-10",
+        "event_name": "Artificial Intelligence Conference",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 38997
+    },
+    {
+        "date": "2025-12-17",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 6253
+    },
+    {
+        "date": "2025-09-30",
+        "event_name": "Education Leadership Conference",
+        "geolocation": [
+            41.8841,
+            -87.6278
+        ],
+        "expected_attendance": 12389
+    },
+    {
+        "date": "2025-12-23",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 12339
+    },
+    {
+        "date": "2025-12-30",
+        "event_name": "Tech Innovators Expo",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 56718
+    },
+    {
+        "date": "2025-05-19",
+        "event_name": "International Auto Show",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 54612
+    },
+    {
+        "date": "2025-06-15",
+        "event_name": "Mental Health Awareness Forum",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 51441
+    },
+    {
+        "date": "2025-09-05",
+        "event_name": "Food and Beverage Expo",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 31799
+    },
+    {
+        "date": "2025-11-23",
+        "event_name": "Food and Beverage Expo",
+        "geolocation": [
+            41.8841,
+            -87.6278
+        ],
+        "expected_attendance": 27033
+    },
+    {
+        "date": "2025-12-04",
+        "event_name": "Renewable Energy Forum",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 29260
+    },
+    {
+        "date": "2025-12-18",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 41827
+    },
+    {
+        "date": "2025-12-25",
+        "event_name": "Virtual Reality Expo",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 53405
+    },
+    {
+        "date": "2025-05-27",
+        "event_name": "Renewable Energy Forum",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 29785
+    },
+    {
+        "date": "2025-08-30",
+        "event_name": "Tech Innovators Expo",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 61249
+    },
+    {
+        "date": "2025-08-07",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 54856
+    },
+    {
+        "date": "2025-09-29",
+        "event_name": "Global Finance Meeting",
+        "geolocation": [
+            41.8537,
+            -87.6195
+        ],
+        "expected_attendance": 15941
+    },
+    {
+        "date": "2025-05-08",
+        "event_name": "Health and Wellness Fair",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 26669
+    },
+    {
+        "date": "2025-12-18",
+        "event_name": "Blockchain World",
+        "geolocation": [
+            41.8841,
+            -87.6278
+        ],
+        "expected_attendance": 57962
+    },
+    {
+        "date": "2025-12-16",
+        "event_name": "Logistics and Supply Chain Expo",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 14283
+    },
+    {
+        "date": "2025-05-17",
+        "event_name": "Virtual Reality Expo",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 18064
+    },
+    {
+        "date": "2025-09-13",
+        "event_name": "Tech Innovators Expo",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 31671
+    },
+    {
+        "date": "2025-06-29",
+        "event_name": "Virtual Reality Expo",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 58389
+    },
+    {
+        "date": "2025-12-21",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8807,
+            -87.6742
+        ],
+        "expected_attendance": 14953
+    },
+    {
+        "date": "2025-10-11",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8512,
+            -87.6167
+        ],
+        "expected_attendance": 6404
+    },
+    {
+        "date": "2025-09-14",
+        "event_name": "Mental Health Awareness Forum",
+        "geolocation": [
+            41.8519,
+            -87.6168
+        ],
+        "expected_attendance": 36326
+    },
+    {
+        "date": "2025-07-31",
+        "event_name": "Blockchain World",
+        "geolocation": [
+            41.8715,
+            -87.6498
+        ],
+        "expected_attendance": 48046
+    },
+    {
+        "date": "2025-11-26",
+        "event_name": "Chicago Comic Con",
+        "geolocation": [
+            41.8917,
+            -87.6044
+        ],
+        "expected_attendance": 50216
+    },
+    {
+        "date": "2025-10-16",
+        "event_name": "Sustainability Summit",
+        "geolocation": [
+            41.8623,
+            -87.6167
+        ],
+        "expected_attendance": 18896
+    }
+]
