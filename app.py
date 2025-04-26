@@ -7,7 +7,7 @@ from utils.google_utils import create_googlemaps_object, address_to_location
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 
 app.layout = dbc.Container([
-    html.H1("McCormick Optimizer 🚇"),
+    html.H1("smooth_navigator 🚇"),
     html.Br(),
     
     dbc.Row([
