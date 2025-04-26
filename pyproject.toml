@@ -1,0 +1,23 @@
+[project]
+name = "mccormick-optimizer"
+version = "0.1.0"
+description = "Transit hackathon app for event-based route disruption detection in Chicago"
+requires-python = ">=3.9"
+
+dependencies = [
+    "dash",
+    "dash-bootstrap-components",
+    "folium",
+    "polyline",
+    "shapely",
+    "pandas",
+    "dotenv",
+    "polyline",
+    "httpx",
+    "pyproj",
+    "utm",
+    "googlemaps"
+    ]
+
+[tool.uv]
+# optional: can specify settings for uv if needed
