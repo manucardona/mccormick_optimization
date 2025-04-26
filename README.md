@@ -1,2 +1,4 @@
 # mccormick_optimization
-Collects event and transportation data in Chicago to anticipate delays and optimize transit, focusing on major hubs like McCormick Place. Built for the UChicago Transit Hackathon to help residents and visitors navigate the city with less chaos.
+
+mccormick_optimization is a project developed during the University of Chicago's Transit Hackathon. It collects, organizes, and links event data from major venues like the McCormick Place Conference Center with transportation service information across Chicago. The goal is to anticipate congestion, minimize disruption, and provide visitors and residents with smarter, real-time travel guidance. Because nothing says "optimizing chaos" like McCormick traffic.
+
