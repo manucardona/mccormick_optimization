@@ -77,3 +77,21 @@ def get_cta_bus_stops_in_radius(center_lat, center_long, radius):
 
     stops = get_cta_bus_stops()
     return stops[stops['geolocation'].apply(lambda geom: circle.contains(geom))]
+
+def get_stations_and_stops_in_radius(center_lat, center_long, radius):
+    """
+    Gets the L stations and CTA bus stops contained within the circle centered
+    around the point specified
+    """    
+    stations = get_l_stations_in_radius(center_lat, center_long, radius)
+    stops = get_cta_bus_stops_in_radius(center_lat, center_long, radius)
+
+    stations.rename(columns={'location': 'geometry'}).apply(lambda row: {'name': row['name'], 'location': row['geometry']}, axis=1).tolist()
+    
+
+def create_buffer(center_lat, center_long, radius):
+    """
+    Returns a Polygon that is a buffer around the center point specified
+    """
+    center = latlong_to_utm(Point(center_long, center_lat))
+    return center.buffer(radius)
