@@ -56,4 +56,13 @@ Welcome to **Smooth Operator**, yeah like the song! A smart and simple Dash web 
   ├── assets/                 # Static assets (if needed)
   ├── data/                   # Mock or real event datasets
   └── README.md               # You’re here!
+   ```
 
+## 🚀 Next Steps
+Here’s what’s coming soon:
+
+🗓️ Automated event scraper to fetch real events from multiple online sources (e.g. Eventbrite, City of Chicago, McCormick Place calendar)
+
+🚌 Live transit updates from CTA and Metra APIs
+
+📲 Mobile-friendly UI improvements for on-the-go access
