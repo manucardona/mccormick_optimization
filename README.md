@@ -1,4 +1,4 @@
-# 🚇 Smooth Operator
+# 🚇 Smooth Navigator
 
 Welcome to **Smooth Operator**, yeah like the song! A smart and simple Dash web app built at the University of Chicago’s **Transit Hackathon** to help residents and visitors navigate Chicago more smoothly during major events.
 
