@@ -6,10 +6,11 @@ from datetime import datetime
 import folium
 import polyline
 import os
-from shapely.geometry import Polygon, Point
+from shapely.geometry import Point
 from utils.google_utils import create_googlemaps_object, address_to_location
 from utils.route_utils import get_transit_route
 from utils.transport_radius import create_buffer
+from pyproj import Transformer
 
 MAP_FILE = "assets/map.html"
 
@@ -23,7 +24,7 @@ if not os.path.exists(MAP_FILE):
 app.layout = dbc.Container([
     html.H1("smooth_navigator 🚇"),
     html.Br(),
-    
+
     dbc.Row([
         dbc.Col([
             html.Label("Starting Address:"),
@@ -37,15 +38,15 @@ app.layout = dbc.Container([
             html.Label("Travel Date:"),
             dcc.DatePickerSingle(
                 id='travel-date',
-                min_date_allowed=datetime.today(),
+                min_date_allowed=datetime(datetime.today().year, 1, 1),
                 max_date_allowed=datetime(datetime.today().year, 12, 31),
                 initial_visible_month=datetime.today()
             )
         ]),
     ], className="mb-4"),
-    
+
     dbc.Button("Get Route", id='get-route', color='primary', className="mb-4"),
-    
+
     dbc.Row([
         dbc.Col([
             html.H4("Route Stops:"),
@@ -56,7 +57,7 @@ app.layout = dbc.Container([
             html.Ul(id='disruptions')
         ])
     ]),
-    
+
     dbc.Row([
         dbc.Col([
             html.H4("Map:"),
@@ -78,72 +79,57 @@ def suggest_route(n_clicks, start_address, end_address, travel_date):
     if n_clicks is None or not start_address or not end_address:
         return [], [], '/assets/map.html'
 
-    # Step 1: Convert addresses to lat, lon
     g_object = create_googlemaps_object()
     start_lat, start_lon = address_to_location(g_object, start_address)
     end_lat, end_lon = address_to_location(g_object, end_address)
 
-    # Step 2: Get route
     route_data = get_transit_route(start_lat, start_lon, end_lat, end_lon)
-
-    # Decode the polyline
-    #encoded_polyline = route_data["routes"][0]["overview_polyline"]["points"]
     route_points = route_data
 
-    # Step 3: Load events and create buffers
     with open("data/choose_chicago_events.json", "r") as f:
         events_data = json.load(f)
 
     event_buffers = []
     disruptions_list = []
 
+    transformer = Transformer.from_crs("EPSG:4326", "EPSG:3857", always_xy=True)
+
     for event in events_data:
         address = event["location"]
         lat, lon = address_to_location(g_object, address)
+
         if lat != -1:
-            event_buffer = Point(lon, lat).buffer(500)
-            #event_buffer = create_buffer(lat, lon, 500)  # 500 meter buffer
-            for point in route_data:
-                if event_buffer.contains(Point(point[1], point[0])):
-                    event_buffers.append((event["event_name"], event_buffer))
-                    break
+            x, y = transformer.transform(lon, lat)
+            event_point_proj = Point(x, y)
+            event_buffer = event_point_proj.buffer(500)
+            event_buffers.append((event["event_name"], (lat, lon), event_buffer))
 
-    # Step 4: Create a Folium map
     fmap = folium.Map(location=[start_lat, start_lon], zoom_start=13)
-
-    # Add route polyline
     folium.PolyLine(route_points, color="blue", weight=5).add_to(fmap)
 
-    # Step 5: Add event buffers to the map
-    for event_name, event_buffer in event_buffers:
-        # Add as CircleMarker around event center
-        center = list(event_buffer.centroid.coords)[0]
+    for event_name, (lat, lon), event_buffer in event_buffers:
         folium.Circle(
-            location=[center[1], center[0]],
+            location=[lat, lon],
             radius=500,
             color='red',
             fill=True,
-            fill_opacity=0.4,
+            fill_opacity=0.25,
             popup=event_name
         ).add_to(fmap)
 
-        # Step 6: Check for disruptions
-        for lat, lon in route_points:
-            if event_buffer.contains(Point(lon, lat)):
+        for rlat, rlon in route_points:
+            rx, ry = transformer.transform(rlon, rlat)
+            if event_buffer.contains(Point(rx, ry)):
                 disruptions_list.append(event_name)
-                break  # No need to check more points for this event
+                break
 
-    # Save the map
     fmap.save(MAP_FILE)
 
-    # Build route stop list
     route_stops = [
         html.Li(f"{start_address}"),
         html.Li(f"{end_address}")
     ]
     disruptions_html = [html.Li(d) for d in disruptions_list]
-
-    # Force reload map by modifying src URL slightly (cache buster)
     map_src = f"/assets/map.html?reload={n_clicks}"
 
     return route_stops, disruptions_html, map_src
